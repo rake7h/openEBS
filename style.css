@@ -1,9 +1,25 @@
-nav{
-    background-color:#349999; 
+    .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            
+            to {
+                opacity: 1;
+            }
+        }
+        .fadeIn {
+            animation-name: fadeIn;
+        }
+            
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
 }
 
-a {
-    
-    color:white;
-    
+.carousel-indicators .active {
+  background-color: #444;
 }
