@@ -23,3 +23,12 @@
 .carousel-indicators .active {
   background-color: #444;
 }
+.carousel-inner{
+    height:350px;
+    width:auto;
+}
+
+.carousel-control-prev-icon{
+    
+     color: #444;
+}
